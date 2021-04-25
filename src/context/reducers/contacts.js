@@ -171,5 +171,5 @@ const contacts = (state, {type, payload}) => {
       return state;
   }
 };
-
+ 
 export default contacts;
