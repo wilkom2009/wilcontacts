@@ -5,6 +5,7 @@ This project is a full React Native Contact Book App built from scratch using th
 ## Freatures & libraries used
 
 1. User registration
+![Screenshot](./src/assets/images/logo.png)
 2. User authentication
 3. Add, preview, update and delete a contact (CRUD)
 4. Add and edit contact picture
