@@ -10,6 +10,7 @@ export default ({password, username}) => dispatch => {
   dispatch({
     type: LOGIN_LOADING,
   });
+  console.log('BEFORE ===: ', password);
   axiosInstance
     .post('auth/login', {
       password,

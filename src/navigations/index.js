@@ -9,6 +9,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {ActivityIndicator} from 'react-native';
 import {navigationRef} from './SideMenus/RootNavigator';
 //import SplashScreen from 'react-native-splash-screen';
+import RNBootSplash from "react-native-bootsplash";
+
 
 const AppNavContainer = () => {
   const {
@@ -44,7 +46,7 @@ const AppNavContainer = () => {
   return (
     <>
       {authLoaded ? (
-        <NavigationContainer ref={navigationRef}>
+        <NavigationContainer ref={navigationRef} onReady={() => RNBootSplash.hide()}>
           {isAuthenticated ? <DrawerNavigator /> : <AuthNavigator />}
         </NavigationContainer>
       ) : (
