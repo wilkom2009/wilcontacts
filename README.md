@@ -4,13 +4,19 @@ This project is a full React Native Contact Book App built from scratch using th
 
 ## Freatures & libraries used
 
-1. User registration
-![Screenshot](./src/assets/images/logo.png)
-2. User authentication
-3. Add, preview, update and delete a contact (CRUD)
-4. Add and edit contact picture
-5. Add country picker to manage  contact phone numbers
-6. Others
+### User registration
+![Screenshot](./src/assets/screenshoots/register.png)
+### User authentication
+![Screenshot](./src/assets/screenshoots/login.png)
+### Add, preview, update and delete a contact (CRUD)
+![Screenshot](./src/assets/screenshoots/create_contact.png)
+![Screenshot](./src/assets/screenshoots/contact_detail.png)
+### Add and edit contact picture
+![Screenshot](./src/assets/screenshoots/contact_edit.png)
+### Add country picker to manage  contact phone numbers
+![Screenshot](./src/assets/screenshoots/country_pic.png)
+### Others
+![Screenshot](./src/assets/screenshoots/settings.png)
 
 ## Libraries
 - [Axios](https://www.npmjs.com/package/axios) to requests purpose 
