@@ -29,3 +29,4 @@ PS. We use a backend [REST API](https://truly-contacts.herokuapp.com/api).
 
 
 Big thanks to : [Cryce Truly's Full React Native project Tutorial for Beginners](https://www.youtube.com/watch?v=npe3Wf4tpSg&t=36029s) for his amazing course.
+OK
